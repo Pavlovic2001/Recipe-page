@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Young Serif;
+    color: hsl(24, 5%, 18%);
+
+}
+
+body{
+    background-color: #F3E5D8;
+    display: block;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 40px;
+    border-radius:15px;
+    gap: 25px;
+}
+
+#intro-box{
+    display: flex;
+    flex-direction: column;
+}
+
+aside{
+    gap: 20px;
+}
+
+#main-img{
+    border-radius:15px;
+}
+
+#box1{
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(330, 100%, 98%) ;
+    padding: 40px;
+}
+
+#box1 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+#box1 h3{
+    color:  hsl(332, 51%, 32%);
+}
+
+#box1 ul li::marker{
+    color:  hsl(332, 51%, 32%);
+
+}
+
+span{
+    color: gray;
+    font-weight: 100;
+}
+
+li{
+    font-size: 14px;
+    padding-left: 20px;
+    font-weight: 900;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#box2{
+    display: flex;
+    flex-direction: column;
+}
+
+#box2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+#box2 ul li{
+    color: gray;
+    font-weight: 100;
+}
+
+
+h2{
+    color: hsl(14, 45%, 36%);
+}
+
+ul li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+ol li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+
+
+#box3{
+    display: flex;
+    flex-direction: column;
+}
+
+#box3 ol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+
+#box4{
+    display: flex;
+    flex-direction: column;
+}
+
+#box4 table tr,td{
+    text-align: left;
+    font-size: 15px;
+}
+
+#box4 table tr th,td{
+    padding: 15px 0px 15px 40px;
+}
+
+th{
+    color: hsl(14, 45%, 36%);
+}
+
+td{
+    color: grey;
+}
+
+p{
+    color: gray;
+    font-size: 15px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.seperator{
+    border-bottom: 1px solid #ccc;
+
+}
+
+hr{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
+.attribution{
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 400px){
+    article{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    aside{
+        padding: 40px;
+    }
+
+    #intro-box h1{
+        font-size: 35px;
+    }
+
+    #intro-box p{
+        font-size: 14px;
+    }
+
+    #main-img{
+        border-radius: 0;
+    }
+
+}
